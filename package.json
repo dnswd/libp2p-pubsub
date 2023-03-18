@@ -1,0 +1,30 @@
+{
+  "name": "libp2p-pubsub",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@chainsafe/libp2p-gossipsub": "^6.2.0",
+    "@chainsafe/libp2p-noise": "^11.0.1",
+    "@libp2p/bootstrap": "^6.0.0",
+    "@libp2p/mplex": "^7.1.1",
+    "@libp2p/peer-id": "^2.0.2",
+    "@libp2p/webrtc-star": "^6.0.0",
+    "@libp2p/websockets": "^5.0.4",
+    "electron-webrtc": "^0.3.0",
+    "libp2p": "^0.42.2",
+    "libp2p-gossipsub": "^0.13.0",
+    "libp2p-webrtc-star": "^0.25.0",
+    "wrtc": "^0.4.7"
+  },
+  "devDependencies": {
+    "node-pre-gyp": "^0.17.0"
+  }
+}
